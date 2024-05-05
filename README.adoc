@@ -1,0 +1,7 @@
+= Perl Information
+
+Memorandum for myself
+
+== References
+
+* link:https://metacpan.org/[Search the CPAN (metacpan.org) ]
