@@ -22,8 +22,8 @@ ENDLINE
 
 sub MkInst {
     my $fileIn = $ARGV[0]
-    open my $fhIn ,'<', $fileIn
-      or die qq/Can't open file "$fileIn" : $i/;
+    open my $fhIn ,'<', $fileIn;
+      or die qq/Can't open file "$fileIn" : $!/;
 
     my @FileList = ();
     while (my $lineIn = <$fhIn>) {
